@@ -1,0 +1,111 @@
+:root{
+  --border-color:rgb(171, 171, 171);
+  padding: 0;
+  margin: 0;
+}
+.top-container{
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+
+}
+.btn-container {
+  font-size: 40px;
+  padding: 0 15px;
+  border-radius: 50px;
+}
+.btn-container:hover{
+  background-color: lightgray;
+}
+/* logo */
+.one-line{
+  display: flex;
+  align-items: center;
+}
+/* search bar */
+.search-bar{
+border: 1px solid var(--border-color);
+border-radius: 20px;
+padding: 2px 10px;
+}
+#input-box{
+  font-size: 20px ;
+  padding: 0 30px;
+  border: none;
+}
+.sign-in{
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  padding: 2px 20px;
+}
+.sign-in:hover{
+  background-color: #def1ff;
+}
+.nav-link{
+  text-decoration: none;
+  color: #1e6ed8;
+}
+/* btn */
+
+
+.logo-btn img{
+  width: 100px;
+}
+.icon{
+  width: 24px;
+}
+/* nav */
+.nav-container{
+  width: 240px;
+}
+
+.sign-in-nav{
+  margin: auto;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul{
+  list-style: none;
+  padding-inline-start: 0;
+}
+ul li{
+  /* width: 132px; */
+  padding: 10px 20px;  
+  border-radius: 10px;
+}
+ul li:hover {
+  background-color: #f2f2f2 ;
+
+}
+.many-links a{
+  text-decoration: none;
+  color: gray;
+}
+.nav-footer{
+  color: lightgray;
+  font-size: 12px;
+}
+.main-flex{
+  display: flex;
+  justify-content: space-between;
+}
+menu{
+  height: 32px;
+}
+.flex-list{
+  display: flex;
+  gap: 10px;
+}
+.flex-list li{
+  padding: 10px 10px;
+  text-align: center;
+  max-width: auto;
+  height: 20px;
+  background-color: #f2f2f2;
+  white-space: nowrap;
+  
+}
