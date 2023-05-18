@@ -80,7 +80,7 @@ background-color: rgba(0,0,0,0.2);
   display: grid;
   grid-template-columns: repeat(3,1fr);
 }
-.menu-dropdown{
+#menu-dropdown{
   display: none;
 
 }
